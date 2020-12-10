@@ -46,7 +46,7 @@
 ```
 
 
-### 6、C++推理代码
+### 6、C++推理代码:
 
     推理代码参考(自己的github)[https://github.com/a954217436/yolov5s_ncnn_inference.git]
     
@@ -60,12 +60,11 @@
     make
     ./yolov5.test ../test_jpg
 ```
+
+
+### TODO:
     
+* vulkan 推理测试
+* 5m/5l/5x 转换
     
-    
-
-        
-
-
-
 
