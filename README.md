@@ -14,7 +14,7 @@
     
 ### 2、yolov5模型转换成onnx：
 
-    参考[官方链接](https://github.com/ultralytics/yolov5/issues/251)
+   参考[官方链接](https://github.com/ultralytics/yolov5/issues/251)
 ```   
     python models/export.py --weights yolov5s.pt --img 640 --batch 1  # export at 640x640 with batch size 1
 ```   
@@ -30,7 +30,7 @@
     
 ### 4、编译安装ncnn：
 
-    参考[官方链接](https://github.com/Tencent/ncnn/wiki/how-to-build#build-for-linux)
+   参考[官方链接](https://github.com/Tencent/ncnn/wiki/how-to-build#build-for-linux)
     
     注意其中的依赖项，尤其是protobuf，亲测2.5.0不行，需要源码升级为3.0以上，注意源码升级时下载cpp版即可
 ```   
@@ -50,7 +50,7 @@
 
 ### 6、C++推理代码:
 
-    推理代码参考(自己的github)[https://github.com/a954217436/yolov5s_ncnn_inference.git]
+   推理代码参考(自己的github)[https://github.com/a954217436/yolov5s_ncnn_inference.git]
     
     输出层名字可以使用netron查看，我查到的是output、857、877，不同模型可能不一样
     
