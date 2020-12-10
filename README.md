@@ -1,0 +1,2 @@
+# yolov5s_ncnn_inference
+yolov5s_ncnn_inference pipeline
