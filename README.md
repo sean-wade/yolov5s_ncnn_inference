@@ -7,6 +7,8 @@
 
     common.py中的class Focus(nn.Module)中，切片操作改为下采样<torch.nn.functional.interpolate>
     
+    要修改的common.py就在本文件夹下，可以替换到yolov5/models下面
+    
     修改后，加载原来的模型再训一遍，否则结果不能看。
     
     
