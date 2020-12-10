@@ -48,7 +48,18 @@
 
 ### 6、C++推理代码
 
-    推理代码参考(自己的github)[]
+    推理代码参考(自己的github)[https://github.com/a954217436/yolov5s_ncnn_inference.git]
+    
+    输出层名字可以使用netron查看，我查到的是output、857、877，不同模型可能不一样
+    
+    注意CMakeLists.txt中，需要openMP，openCV，libncnn.a等
+    
+```
+    mkdir build && cd build
+    cmake ..
+    make
+    ./yolov5.test ../test_jpg
+```
     
     
     
