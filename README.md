@@ -50,7 +50,7 @@
 
 ### 6、C++推理代码:
 
-   推理代码参考(自己的github)[https://github.com/a954217436/yolov5s_ncnn_inference.git]
+   推理代码参考yolov5.cpp(本github)[https://github.com/a954217436/yolov5s_ncnn_inference.git]
     
     输出层名字可以使用netron查看，我查到的是output、857、877，不同模型可能不一样
     
@@ -68,5 +68,6 @@
     
 * vulkan 推理测试
 * 5m/5l/5x 转换
-    
+* 区分类别进行nms
+* 测试输入分辨率w!=h时的效果
 
