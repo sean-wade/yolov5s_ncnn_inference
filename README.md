@@ -50,7 +50,7 @@
 
 ### 6、C++推理代码:
 
-   推理代码参考yolov5.cpp[本github][https://github.com/a954217436/yolov5s_ncnn_inference/blob/main/yolov5.cpp]
+   推理代码参考[本github yolov5.cpp][https://github.com/a954217436/yolov5s_ncnn_inference/blob/main/yolov5.cpp]
     
     输出层名字可以使用netron查看，我查到的是output、857、877，不同模型可能不一样
     
